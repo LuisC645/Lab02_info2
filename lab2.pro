@@ -10,6 +10,10 @@ SOURCES += \
         main.cpp \
         problem_1.cpp \
         problem_10.cpp \
+        problem_12.cpp \
+        problem_14.cpp \
+        problem_16.cpp \
+        problem_18.cpp \
         problem_2.cpp \
         problem_4.cpp \
         problem_6.cpp \

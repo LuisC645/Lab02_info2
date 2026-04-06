@@ -32,7 +32,7 @@ int main()
 
             if (!soloDigitos) {
                 cout << "Error: Por favor ingrese un numero valido" << endl;
-            } else if (temporal % 2 == 0 || temporal == 1 || temporal == 17){
+            } else if ((temporal % 2 == 0 || temporal == 1 || temporal == 17) & temporal <= 18){
                 data = temporal;
                 entradaValida = true;
             } else {
@@ -46,7 +46,6 @@ int main()
         case 1:
             problem_1();
             break;
-
         case 2:
             problem_2();
             break;
@@ -61,6 +60,18 @@ int main()
             break;
         case 10:
             problem_10();
+            break;
+        case 12:
+            problem_12();
+            break;
+        case 14:
+            problem_14();
+            break;
+        case 16:
+            problem_16();
+            break;
+        case 18:
+            problem_18();
             break;
         default:
             break;
