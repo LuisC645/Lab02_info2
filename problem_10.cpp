@@ -7,6 +7,7 @@ void problem_10() {
     string romano;
     int total = 0;
 
+    cout << "Problema 10" << endl;
     cout << "Ingresa un numero romano: ";
     cin >> romano;
 

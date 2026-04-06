@@ -11,7 +11,7 @@ void problem_4() {
     int inicio = 0;
     bool negativo = false;
 
-
+    cout << "Problema 4" << endl;
     cout << "Ingresa numero: ";
     cin >> cadena;
 

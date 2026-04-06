@@ -7,6 +7,7 @@ void problem_6() {
     string cadena;
     string resultado = "";
 
+    cout << "Problema 6" << endl;
     cout << "Ingresa texto: ";
     cin >> cadena;
 

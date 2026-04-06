@@ -9,6 +9,7 @@ void problem_8() {
     string texto = "";
     string numeros = "";
 
+    cout << "Problema 8" << endl;
     cout << "Ingresa texto: ";
     cin >> cadena;
 

@@ -13,6 +13,7 @@ SOURCES += \
         problem_12.cpp \
         problem_14.cpp \
         problem_16.cpp \
+        problem_17.cpp \
         problem_18.cpp \
         problem_2.cpp \
         problem_4.cpp \
