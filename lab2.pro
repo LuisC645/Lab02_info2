@@ -9,7 +9,11 @@ CONFIG += c++17 cmdline
 SOURCES += \
         main.cpp \
         problem_1.cpp \
-        problem_2.cpp
+        problem_10.cpp \
+        problem_2.cpp \
+        problem_4.cpp \
+        problem_6.cpp \
+        problem_8.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

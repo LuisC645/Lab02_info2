@@ -50,9 +50,21 @@ int main()
         case 2:
             problem_2();
             break;
-
+        case 4:
+            problem_4();
+            break;
+        case 6:
+            problem_6();
+            break;
+        case 8:
+            problem_8();
+            break;
+        case 10:
+            problem_10();
+            break;
         default:
             break;
+
         }
 
     }
