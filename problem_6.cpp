@@ -15,13 +15,13 @@ void problem_6() {
     for (int i = 0; i < (int)cadena.length(); i++) {
         // Mayus
         if (cadena[i] >= 'a' && cadena[i] <= 'z') {
-            resultado += (char)(cadena[i] - ('a' - 'A'));
+            resultado += (char)(cadena[i] - ('a' - 'A')); // 32 pos
         } else {
             // Si tiene otro simbolo lo deja
             resultado += cadena[i];
         }
     }
 
-    cout << "Original    : " << cadena << endl;
+    cout << "Original: " << cadena << endl;
     cout << "Mayuscula: " << resultado << endl;
 }

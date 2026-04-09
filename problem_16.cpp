@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// Llama a esta función desde tu main principal
 void problem_16() {
     int n;
 

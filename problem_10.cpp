@@ -6,15 +6,32 @@ using namespace std;
 void problem_10() {
     string romano;
     int total = 0;
+    bool valido = false;
 
     cout << "Problema 10" << endl;
-    cout << "Ingresa un numero romano: ";
-    cin >> romano;
 
-    // Mayus
-    for (int i = 0; i < (int)romano.length(); i++) {
-        if (romano[i] >= 'a' && romano[i] <= 'z') {
-            romano[i] = romano[i] - ('a' - 'A');
+    // Asumimos que la variable valido fue declarada antes como: bool valido = false;
+    while(!valido){
+        cout << "Ingresa un numero romano: ";
+        cin >> romano;
+
+        valido = true;
+
+        for(int i = 0; i < (int)romano.length(); i++){
+            if(!((romano[i] >= 'a' && romano[i] <= 'z') || (romano[i] >= 'A' && romano[i] <= 'Z'))){
+                valido = false;
+                break;
+            }
+        }
+
+        if(valido){
+            for (int i = 0; i < (int)romano.length(); i++) {
+                if (romano[i] >= 'a' && romano[i] <= 'z') {
+                    romano[i] = romano[i] - ('a' - 'A');
+                }
+            }
+        } else {
+            cout << "Error" << endl;
         }
     }
 
@@ -42,7 +59,6 @@ void problem_10() {
             return;
         }
 
-
         if (i + 1 < (int)romano.length()) {
             if (romano[i + 1] == 'M') {
                 siguiente = 1000;
@@ -64,7 +80,6 @@ void problem_10() {
             }
         }
 
-
         if (actual < siguiente) {
             total = total - actual;
         } else {
@@ -73,5 +88,8 @@ void problem_10() {
     }
 
     cout << "Numero ingresado: " << romano << endl;
-    cout << "Numero arábico: " << total << endl;
+    cout << "Numero arabico: " << total << endl;
+
 }
+
+

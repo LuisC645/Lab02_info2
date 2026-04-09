@@ -23,7 +23,7 @@ void problem_8() {
         }
     }
 
-    cout << "Original : " << cadena << endl;
-    cout << "Texto    : " << texto << endl;
-    cout << "Numero   : " << numeros << endl;
+    cout << "Original: " << cadena << endl;
+    cout << "Texto: " << texto << endl;
+    cout << "Numero: " << numeros << endl;
 }
